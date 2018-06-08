@@ -1,0 +1,159 @@
+
+/* ---------- General Styles ---------- */
+
+body{
+    background-color: #3a3c3f;
+    font-family: "Helvetica";
+    text-align: center;
+}
+#content{
+    padding: 10px
+}
+#cont{
+    background-color: #e3e3e3;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#headcontainer{
+    border-radius: 25px;
+    background-color: #e3e3e3;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+h1{
+    color: #3a3c3f;
+}
+p.center{
+    color: #3a3c3f;
+    text-align: justify;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+
+.selected{
+    font-weight: bold;
+    position: relative;
+}
+
+img.header{
+    width:200px;
+}
+
+#header{
+    height: 40px;
+    color: #0000FF;
+    font-family: "Helvetica";
+    color: white;
+    background-color: #3a3c3f;
+    text-align: center;
+}
+
+.container1 {
+    max-width: 1200px;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    position: relative;
+}
+
+.container1 div {
+    background-color: #e3e3e3;
+    width: 1100px;
+    display: inline-block;
+    display: none;
+}
+
+.container1 img {
+    border-radius: 5px;
+    align: center;
+    width: 800px;
+    height: 300px;
+}
+
+.buttonmain{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
+
+div.tabcenter{
+    margin: 0 auto;
+    width:20%;
+}
+
+#footer{
+    padding:  10px;
+    background-color: #3a3c3f;
+    color: white;
+    text-align:center;
+}
+
+.presTable{
+
+    overflow: auto;
+    font-size: small;
+    height: 300px;
+}
+
+.trpresHistory:nth-child(even){background-color: #f2f2f2;}
+
+.trpresHistory:hover {background-color: #9ad3de;}
+
+table.presHistory, td.presHistory, th.presHistory, th.select, td.select  {
+    border-collapse:separate;
+    border:1px solid #0A0202;
+    margin: 1px;
+    overflow:auto;
+}
+    
+th.presHistory, th.select{
+    padding:2px;
+    background-color: #d02927;
+}
+
+/*<-- Style for the input fields and their autocomplete box-->
+<!-- This code was taken from https://jqueryui.com/resources/demos/autocomplete/combobox.html -->*/
+.ui-autocomplete {
+    text-align: left;
+    max-height: 100px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+/* IE 6 doesn't support max-height
+ * we use height instead, but this forces the menu to always be this tall
+ */
+* html .ui-autocomplete {
+    height: 100px;
+}
+
+.pDetails{
+    font-family: "Helvetica";
+    text-align: left;
+}
+.ui-widget{
+    text-align: left;
+}
+
+.ui-tooltip {
+    border-radius: 20px;
+    font: 12px "Helvetica Neue", Sans-Serif;
+}
+
+.tooltip {
+    height: 1em;
+    width:1em;
+}
+
